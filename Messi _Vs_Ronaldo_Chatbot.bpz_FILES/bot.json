@@ -1,0 +1,793 @@
+{
+  "version": "1.17",
+  "settings": {
+    "defaultLanguage": "en",
+    "languages": [
+      "English",
+      "English",
+      "English"
+    ],
+    "description": "",
+    "id": "0a1f9619-6ccd-4d2d-ac55-80538a002657",
+    "inactivityTimeout": 30,
+    "botVariables": [],
+    "userVariables": [],
+    "nodeRepetitionLimit": 3,
+    "configVariables": {},
+    "cognitiveConfigs": {
+      "openAi": {}
+    },
+    "useLlmz": true,
+    "defaultBestModel": "openai__gpt-4.1-2025-04-14",
+    "defaultFastModel": "openai__gpt-4.1-mini-2025-04-14",
+    "useClient": true,
+    "llmzVersion": "01-Oct-2024",
+    "autonomousModel": "best-model",
+    "fallbackModel": "google-ai__models/gemini-2.0-flash",
+    "usePushToGit": false,
+    "disablePublishButton": false
+  },
+  "flows": [
+    {
+      "id": "wf-error",
+      "name": "Error",
+      "startNode": "nd-98dc0bcc87",
+      "variables": [],
+      "links": [
+        {
+          "id": "edg-1cb5862648",
+          "source": "nd-98dc0bcc87",
+          "sourcePort": "trs-02c7129430",
+          "target": "nd-58fca56e01"
+        },
+        {
+          "id": "edg-1c28c96d6a",
+          "source": "nd-58fca56e01",
+          "sourcePort": "nd-58fca56e01",
+          "target": "nd-e05f59dd66"
+        }
+      ],
+      "nodes": [
+        {
+          "comment": "<p><strong><span style=\"font-size: 18px\">⛔️ When something goes wrong</span></strong></p><p><br>This workflow is executed when there's an <strong>unexpected error</strong> in one of the other workflows.</p><p></p><p>You can use this to inform the user of the situation before ending the conversation.</p>",
+          "type": "comment",
+          "id": "nd-8ff3d7d295",
+          "name": "Comment1",
+          "deletable": true,
+          "instructions": [],
+          "height": 148,
+          "width": 401,
+          "x": 90,
+          "y": -45
+        },
+        {
+          "instructions": [
+            {
+              "id": "ins-2762f70004",
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": {
+                  "staticValue": "Sorry, an error occurred. Please try again later",
+                  "dynamicValue": "",
+                  "valueType": "static"
+                },
+                "typing": {
+                  "valueType": "static",
+                  "staticValue": true
+                }
+              },
+              "nodeId": "nd-58fca56e01",
+              "transitions": []
+            }
+          ],
+          "defaultTransition": {
+            "targetNodeId": "nd-e05f59dd66"
+          },
+          "type": "standard",
+          "id": "nd-58fca56e01",
+          "name": "Handler",
+          "deletable": true,
+          "x": 450,
+          "y": 120
+        },
+        {
+          "id": "nd-98dc0bcc87",
+          "name": "On_Error",
+          "type": "entry",
+          "deletable": false,
+          "variables": [],
+          "instructions": [
+            {
+              "id": "trs-02c7129430",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "nd-58fca56e01"
+              },
+              "transitions": [],
+              "nodeId": "nd-98dc0bcc87"
+            }
+          ],
+          "x": 90,
+          "y": 120
+        },
+        {
+          "id": "nd-e05f59dd66",
+          "name": "End",
+          "type": "end",
+          "variables": [],
+          "deletable": false,
+          "instructions": [
+            {
+              "id": "trs-945140a646",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "END"
+              },
+              "transitions": [],
+              "nodeId": "nd-e05f59dd66"
+            }
+          ],
+          "x": 810,
+          "y": 120
+        }
+      ]
+    },
+    {
+      "id": "wf-timeout",
+      "name": "Timeout",
+      "startNode": "nd-9f7f3268ac",
+      "variables": [],
+      "links": [
+        {
+          "id": "edg-b0d2adcd13",
+          "source": "nd-e6c012a652",
+          "sourcePort": "nd-e6c012a652",
+          "target": "nd-199fdcf439"
+        },
+        {
+          "id": "edg-6d17a0591b",
+          "source": "nd-9f7f3268ac",
+          "sourcePort": "trs-0c7a9a0003",
+          "target": "nd-e6c012a652"
+        }
+      ],
+      "nodes": [
+        {
+          "instructions": [],
+          "defaultTransition": {
+            "targetNodeId": "nd-199fdcf439"
+          },
+          "type": "standard",
+          "id": "nd-e6c012a652",
+          "name": "Handler",
+          "deletable": true,
+          "x": 435,
+          "y": 105
+        },
+        {
+          "comment": "<p><strong><span style=\"font-size: 18px\">⌛️ When conversation times out</span></strong></p><p><br>This workflow is executed when the conversation <strong>times out</strong> before it had time to flow to an <strong>End Node</strong>.</p><p></p><p>The <strong>Timeout Delay</strong> is configurable in the <strong>Chatbot Settings.</strong></p><p></p><p>You can use this to inform the user of the situation before ending the conversation.</p>",
+          "type": "comment",
+          "id": "nd-441efa6c42",
+          "name": "Comment1",
+          "deletable": true,
+          "instructions": [],
+          "height": 173,
+          "width": 401,
+          "x": 105,
+          "y": -90
+        },
+        {
+          "id": "nd-9f7f3268ac",
+          "name": "On_Timeout",
+          "type": "entry",
+          "deletable": false,
+          "variables": [],
+          "instructions": [
+            {
+              "id": "trs-0c7a9a0003",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "nd-e6c012a652"
+              },
+              "transitions": [],
+              "nodeId": "nd-9f7f3268ac"
+            }
+          ],
+          "x": 100,
+          "y": 100
+        },
+        {
+          "id": "nd-199fdcf439",
+          "name": "End",
+          "type": "end",
+          "variables": [],
+          "deletable": false,
+          "instructions": [
+            {
+              "id": "trs-bf76943d55",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "END"
+              },
+              "transitions": [],
+              "nodeId": "nd-199fdcf439"
+            }
+          ],
+          "x": 795,
+          "y": 105
+        }
+      ]
+    },
+    {
+      "id": "wf-conversation-end",
+      "name": "Conversation End",
+      "startNode": "nd-c0d3bd2c92",
+      "variables": [],
+      "links": [
+        {
+          "id": "edg-3cb8028ff6",
+          "source": "nd-c0d3bd2c92",
+          "sourcePort": "trs-92c6f93b0c",
+          "target": "nd-2db7499cc6"
+        },
+        {
+          "id": "edg-8a88f687a0",
+          "source": "nd-2db7499cc6",
+          "sourcePort": "nd-2db7499cc6",
+          "target": "nd-d0c2a6be81"
+        }
+      ],
+      "nodes": [
+        {
+          "instructions": [],
+          "defaultTransition": {
+            "targetNodeId": "nd-d0c2a6be81"
+          },
+          "type": "standard",
+          "id": "nd-2db7499cc6",
+          "name": "Handler",
+          "deletable": true,
+          "x": 420,
+          "y": 105
+        },
+        {
+          "comment": "<p><strong><span style=\"font-size: 18px\">👋 Before Conversation Ends</span></strong></p><p><br>This workflow is executed when right before the conversation <strong>Ends Explicitly.</strong></p><p></p><p>An <strong>Explicit Ending</strong> happens when a workflow transitions on an <strong>End Node</strong>.</p>",
+          "type": "comment",
+          "id": "nd-6d5d3f41dd",
+          "name": "Comment1",
+          "deletable": true,
+          "instructions": [],
+          "height": 148,
+          "width": 461,
+          "x": 105,
+          "y": -45
+        },
+        {
+          "id": "nd-c0d3bd2c92",
+          "name": "On_Explicit_Ending",
+          "type": "entry",
+          "deletable": false,
+          "variables": [],
+          "instructions": [
+            {
+              "id": "trs-92c6f93b0c",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "nd-2db7499cc6"
+              },
+              "transitions": [],
+              "nodeId": "nd-c0d3bd2c92"
+            }
+          ],
+          "x": 100,
+          "y": 100
+        },
+        {
+          "id": "nd-d0c2a6be81",
+          "name": "End",
+          "type": "end",
+          "variables": [],
+          "deletable": false,
+          "instructions": [
+            {
+              "id": "trs-7004dbb2b6",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "END"
+              },
+              "transitions": [],
+              "nodeId": "nd-d0c2a6be81"
+            }
+          ],
+          "x": 780,
+          "y": 105
+        }
+      ]
+    },
+    {
+      "topicId": "tpc-global",
+      "id": "wf-main",
+      "name": "Main",
+      "startNode": "nd-2bb9db230d",
+      "variables": [],
+      "links": [],
+      "nodes": [
+        {
+          "id": "nd-2bb9db230d",
+          "name": "Start",
+          "type": "start",
+          "deletable": false,
+          "instructions": [
+            {
+              "id": "trs-8b0779edc5",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "nd-54aa0c19de"
+              },
+              "transitions": [],
+              "nodeId": "nd-2bb9db230d"
+            }
+          ],
+          "x": -105,
+          "y": -180,
+          "kbPriority": {
+            "enabled": false,
+            "searchScope": "specific",
+            "kbs": []
+          }
+        },
+        {
+          "id": "nd-80ac4ff158",
+          "name": "End",
+          "type": "end",
+          "deletable": false,
+          "instructions": [
+            {
+              "id": "trs-0260f5e672",
+              "type": "transition",
+              "condition": {
+                "type": "expression",
+                "payload": "true"
+              },
+              "destination": {
+                "node": "END"
+              },
+              "transitions": [],
+              "nodeId": "nd-80ac4ff158"
+            }
+          ],
+          "x": 480,
+          "y": -195
+        },
+        {
+          "type": "autonomous",
+          "deletable": true,
+          "x": 120,
+          "y": -330,
+          "instructions": [
+            {
+              "id": "ins-1465ce0650",
+              "agentId": "KnowledgeAgent",
+              "toolId": "knowledge-query",
+              "toolType": "search",
+              "type": "autonomous",
+              "label": "Search Knowledge Bases",
+              "category": "Knowledge Bases",
+              "nodeId": "nd-54aa0c19de",
+              "transitions": [],
+              "description": "Searches for information in the official knowledge bases.",
+              "kbs": {
+                "valueType": "static",
+                "staticValue": []
+              },
+              "advanced": {
+                "mode": "breadcrumb",
+                "contextDepth": 2,
+                "maxTokens": 20
+              },
+              "manualFields": []
+            }
+          ],
+          "id": "nd-54aa0c19de",
+          "name": "AutonomousNode",
+          "writableVariables": [],
+          "allowConversation": true,
+          "guidelines": {
+            "valueType": "dynamic",
+            "dynamicValue": "You are the Messi vs Ronaldo Chatbot, a friendly, articulate, and professional AI assistant dedicated to delivering instant, verifiable soccer statistics about Lionel Messi and Cristiano Ronaldo. You engage directly with website visitors—many of whom may be new to the chatbot and to the depth of football statistics—guiding them through the platform’s unique capabilities and offerings. Your mission is to support fans, analysts, and enthusiasts by providing clear, concise, and authoritative comparisons between these two football legends, strictly using information retrieved from the company Knowledge Base. Do not use general AI knowledge, make assumptions, or generate content outside the scope of the documented Knowledge Base. \n\n**Your Core Role and Behavior Guidelines**\n\n**1. Respond Exclusively with Retrieved Knowledge Base Content**\n- Only answer questions using information retrieved via Retrieval-Augmented Generation (RAG) from the company's Knowledge Base.\n- Never rely on your own model training, general football knowledge, or external sources.\n- Never guess, fill in gaps, or invent facts—even if a question seems simple or obvious.\n- If you cannot find relevant content, respond with:\n  > \"That's a great question — unfortunately this chatbot is not capable of retrieveing those statistics yet.\"\n- If the user asks about anything unrelated to the stats of Messi or Ronaldo, respond with:\n > \"Sorry the content you desire is not applicable for this chatbot.\"\n- If the user asks about whether these stats are for club or country, respond with:\n > \"These statistics are the total amount for club and country.\"\n- If the user asks for a statistic about a year the players have never played in, respond with:\n > \"Sorry _____ has never played in this year.\"\n- If the user asks for for statistics about a year in the future, respond with:\n > \"Error, please enter a valid year\"\n\n**2. Support a Wide Range of Stat-Based Inquiries**\n- Confidently answer questions about:\n  - What the Messi vs Ronaldo Chatbot does and the value it provides.\n  - The specific statistics available: annual appearances, goals, and assists for Lionel Messi (2004–2024) and Cristiano Ronaldo (2002–2024).\n  - How to compare annual stats between the players.\n  - The scope, accuracy, and completeness of data (full calendar years only; no ongoing or partial data).\n  - Industry context, use cases, and why the chatbot focuses on these two players.\n  - Frequently asked questions (e.g., details on data limitations, absence of categories like penalties or club breakdowns).\n  - How to get started exploring or comparing stats.\n- If the requested information is not available in the Knowledge Base, respond clearly and kindly, offering to help with another query.\n\n**3. Structure and Format for Maximum Clarity and Engagement**\n- Use **carousels** for displaying structured information, such as:\n  - Stat breakdowns for each year/player.\n  - Quick side-by-side comparisons.\n  - Content highlights, such as coverage years or feature explanations.\n  - Each carousel card includes a title, concise description, optional image, and an action button (e.g., \"Learn more,\" \"Compare another year\").\n- Use **buttons** at the end of responses to guide next steps, such as:\n  - \"Compare another year\"\n  - \"Show Messi's stats\"\n  - \"Show Ronaldo's stats\"\n  - \"Learn about data coverage\"\n- For unstructured or single-point answers, provide concise, factual, and easy-to-understand text.\n- Always use formatting to enhance readability and encourage further exploration.\n\n**4. Embody the Brand Voice and Tone**\n- Communicate in a manner that is:\n  - Friendly, approachable, and welcoming—like a thoughtful team member.\n  - Factual and concise, never providing marketing hype or vague statements.\n  - Focused on user-requested information and building user trust.\n- If information is missing or unclear, say:\n  > \"I couldn't find that detail right now, but I can help with something else if you'd like.\"\n\n**5. Never Escalate to Human Support**\n- Do not refer users to live agents or suggest human intervention.\n- Your role is to fully support users within the scope of the Knowledge Base.\n\n**6. Clearly Communicate Product Scope, Constraints, and Value**\n- Emphasize that the chatbot specializes in:\n  - Year-by-year appearances, goals, and assists for Messi (2004–2024) and Ronaldo (2002–2024).\n  - Fast, reliable, and authoritative stat delivery for career comparisons.\n  - Data is always sourced from completed calendar years; ongoing or partial stats (e.g., 2025) are not available to ensure accuracy.\n  - No match-by-match, club/national, or advanced stat breakdowns (e.g., penalties, freekicks).\n- Address common user needs and potential frustrations up front, such as the absence of more granular stats or ongoing-year data.\n\n**7. Optimize for Sophisticated, Contextual Conversations**\n- Tailor engagement to the user’s journey, whether they are:\n  - Exploring what the chatbot can do.\n  - Requesting specific annual stats.\n  - Comparing players head-to-head.\n  - Asking about data completeness or limitations.\n- Proactively suggest related questions or next steps based on context.\n- Use industry terminology (e.g., “appearances,” “assists,” “calendar year stats”) to reinforce expertise.\n\n**8. Maintain Rigorous Security and Privacy Standards**\n- Never ask for or process passwords, payment information, or private user data.\n- Never claim to be a human; always represent yourself as the Messi vs Ronaldo Chatbot.\n\n**9. Consistency and Reliability in All Interactions**\n- Apply the same factual rigor, formatting, and tone to every user, regardless of experience level.\n- Surface only what is verifiable and present in the Knowledge Base.\n- When data is incomplete or out of scope, clearly state this and redirect helpfully.\n\n**10. Business Intelligence and Continuous Improvement**\n- Recognize and report recurring user needs, common gaps in available information, and trends in requested comparisons (if enabled by the platform).\n- Encourage user feedback via offered buttons where appropriate (e.g., “Suggest another stat,” “Request more details”).\n- Always frame responses to support the company’s mission: enabling informed, data-driven discussions about Messi and Ronaldo.\n\n---\n\n**Summary Table Example**  \n(When displaying annual stats, use this format for clarity.)\n\n| Year | Player   | Appearances | Assists | Goals |\n|------|----------|-------------|---------|-------|\n| 2024 | Messi    |     36      |   18    |  29   |\n| 2024 | Ronaldo |     51      |    7    |  43   |\n| ...       |   ...           |    ...      |  ...    | ...   |\n\n---\n\n**In Every Conversation:**\n- Always begin by understanding the user’s intent and guiding them to the chatbot’s core value proposition.\n- Help users discover capabilities (e.g., “You can ask for Messi’s stats for any year from 2004 to 2024, or compare both players for a specific year.”).\n- Anticipate common questions; offer proactive suggestions and next steps.\n- Build rapport through a helpful, respectful, and efficient approach, reinforcing the chatbot’s role as a trusted, authoritative resource for Messi vs Ronaldo comparisons.\n\n**Important:**\n- Never provide information, context, or opinion not explicitly sourced from the company’s Knowledge Base.\n- Respond to every inquiry with the highest standards of accuracy, engagement, and professionalism—anchored in the chatbot’s specialized domain.\n\nYou are the Messi vs Ronaldo Chatbot: the authoritative, fan-friendly, and up-to-date resource for instant career stat comparisons between two football icons."
+          }
+        }
+      ],
+      "parentFolder": "root"
+    }
+  ],
+  "intents": [
+    {
+      "id": "int-cancel",
+      "name": "cancel",
+      "utterances_with_slots": [
+        "cancel",
+        "abort",
+        "abandon",
+        "i want to cancel",
+        "forget about this",
+        "leave",
+        "stop",
+        "quit",
+        "you know what, nevermind",
+        "forget it"
+      ]
+    },
+    {
+      "id": "int-no",
+      "name": "no",
+      "utterances_with_slots": [
+        "no",
+        "i don't want to",
+        "absolutely not",
+        "nah",
+        "nope",
+        "not really",
+        "not sure",
+        "no thanks"
+      ]
+    },
+    {
+      "id": "int-yes",
+      "name": "yes",
+      "utterances_with_slots": [
+        "yes",
+        "yeah",
+        "absolutely",
+        "i'd like to",
+        "sure ",
+        "hmm probably",
+        "yup",
+        "ok"
+      ]
+    }
+  ],
+  "list_entities": [],
+  "pattern_entities": [],
+  "actions": [],
+  "hooks": [
+    {
+      "id": "hk-99mudt",
+      "name": "track_iterations",
+      "hookType": "after_llmz_execution",
+      "content": "await actions[\"agi/improvement\"].trackIterations({\n  iterations: execution.iterations.map((iteration) => ({\n    uri: `workflow://${execution.location?.workflowId}/${execution.location?.nodeId}`,\n    conversationId: event.conversationId!,\n    executionId: execution.context.id,\n    iterationId: iteration.id,\n    eventId: event.messageId ?? event.id,\n    userId: event.userId!,\n    iteration: {\n      code: iteration.code ?? \"\",\n      ended_ts: iteration.ended_ts,\n      started_ts: iteration.started_ts,\n      messages: iteration.messages,\n      model: iteration.llm.model,\n      mutations: iteration.mutations,\n      status: iteration.status,\n    },\n  })),\n});\n",
+      "title": "Track LLMz Iterations",
+      "description": "This hook tracks iterations after LLMz execution",
+      "origin": {
+        "type": "integration",
+        "integration": {
+          "id": "agi/improvement",
+          "name": "agi/improvement",
+          "version": "1.0.2",
+          "title": "Improvement"
+        }
+      },
+      "transpiledCode": "var __defProp = Object.defineProperty;\nvar __name = (target, value) => __defProp(target, \"name\", { value, configurable: true });\nasync function __ROOT__() {\n  await actions[\"agi/improvement\"].trackIterations({\n    iterations: execution.iterations.map((iteration) => ({\n      uri: `workflow://${execution.location?.workflowId}/${execution.location?.nodeId}`,\n      conversationId: event.conversationId,\n      executionId: execution.context.id,\n      iterationId: iteration.id,\n      eventId: event.messageId ?? event.id,\n      userId: event.userId,\n      iteration: {\n        code: iteration.code ?? \"\",\n        ended_ts: iteration.ended_ts,\n        started_ts: iteration.started_ts,\n        messages: iteration.messages,\n        model: iteration.llm.model,\n        mutations: iteration.mutations,\n        status: iteration.status\n      }\n    }))\n  });\n  ;\n}\n__name(__ROOT__, \"__ROOT__\");\n; return await __ROOT__();"
+    },
+    {
+      "id": "hk-1q8lg5q",
+      "name": "inject_learnings",
+      "hookType": "before_llmz_execution",
+      "content": "const { items } = await actions[\"agi/improvement\"].findFeedback({\n  uri: `workflow://${context.location?.workflowId}/${context.location?.nodeId}`,\n  search: context.transcript.map((x) => `${x.role}: ${x.content}`).join(\"\\n\"),\n});\n\nif (items.length) {\n  context.instructions += `\n\n    ## Learnings from Previous Experiences\n\n    ${items\n      .map(\n        (x, i) => `### Learning ${i + 1}\n    ${x.learning}\n    `\n      )\n      .join(\"\\n\")}\n    `;\n}\n",
+      "title": "Provide Learnings to LLMz",
+      "description": "This hook injects learnings into LLMz before execution",
+      "origin": {
+        "type": "integration",
+        "integration": {
+          "id": "agi/improvement",
+          "name": "agi/improvement",
+          "version": "1.0.2",
+          "title": "Improvement"
+        }
+      },
+      "transpiledCode": "var __defProp = Object.defineProperty;\nvar __name = (target, value) => __defProp(target, \"name\", { value, configurable: true });\nasync function __ROOT__() {\n  const { items } = await actions[\"agi/improvement\"].findFeedback({\n    uri: `workflow://${context.location?.workflowId}/${context.location?.nodeId}`,\n    search: context.transcript.map((x) => `${x.role}: ${x.content}`).join(\"\\n\")\n  });\n  if (items.length) {\n    context.instructions += `\n\n    ## Learnings from Previous Experiences\n\n    ${items.map(\n      (x, i) => `### Learning ${i + 1}\n    ${x.learning}\n    `\n    ).join(\"\\n\")}\n    `;\n  }\n  ;\n}\n__name(__ROOT__, \"__ROOT__\");\n; return await __ROOT__();"
+    }
+  ],
+  "qnas": [],
+  "knowledge_base": [
+    {
+      "dataSources": [
+        {
+          "created_on": 1722900679385,
+          "data": {},
+          "disabled": false,
+          "id": "ds-default",
+          "type": "file-api"
+        },
+        {
+          "created_on": 1722900679385,
+          "data": {
+            "html": ""
+          },
+          "disabled": false,
+          "id": "ds-default-rich-text",
+          "type": "rich-text"
+        }
+      ],
+      "description": "This is the default knowledge base for the bot",
+      "id": "kb-default",
+      "name": "Default Knowledge Base",
+      "parentFolder": "root"
+    }
+  ],
+  "folders": [],
+  "agents": {
+    "SummaryAgent": {
+      "enabled": false,
+      "config": {
+        "summaryMaxTokens": 100,
+        "transcriptMaxLines": 10,
+        "model": "fast-model"
+      }
+    },
+    "TranslatorAgent": {
+      "config": {
+        "detectLanguage": true
+      }
+    },
+    "KnowledgeAgent": {
+      "enabled": false,
+      "config": {
+        "answerManually": true,
+        "context": "Summary of the conversation:\n\"\"\"\n{{conversation.SummaryAgent.summary}}\n\"\"\"\n\nTranscript:\n\"\"\"\n{{conversation.SummaryAgent.transcript}}\n\"\"\"",
+        "bestModel": "gpt-4-turbo",
+        "fastestModel": "fast-model",
+        "questionModel": "fast-model",
+        "strategy": "hybrid",
+        "chunks": 50
+      }
+    },
+    "PersonalityAgent": {
+      "config": {
+        "personality": ""
+      }
+    },
+    "VisionAgent": {
+      "enabled": true,
+      "config": {
+        "extractionEnabled": true
+      }
+    }
+  },
+  "tables": {
+    "table_01K14EX3VJK3KYRAM9ESYPBGTQ": {
+      "id": "table_01K14EX3VJK3KYRAM9ESYPBGTQ",
+      "name": "RouterAgentTable",
+      "factor": 1,
+      "frozen": false,
+      "tags": {
+        "role": "agents/router/intents",
+        "agent": "RouterAgent",
+        "system": "true"
+      },
+      "createdAt": "2025-07-26T22:50:50.612Z",
+      "updatedAt": "2025-07-26T22:50:50.612Z",
+      "createdBy": "user:6d5df24b-85f7-495b-b720-5cdbeb5de7ab",
+      "updatedBy": null,
+      "isComputeEnabled": false,
+      "schema": {
+        "type": "object",
+        "x-zui": {},
+        "required": [
+          "phrase",
+          "intentId",
+          "phraseId"
+        ],
+        "properties": {
+          "phrase": {
+            "type": "string",
+            "x-zui": {
+              "index": 0,
+              "searchable": true
+            }
+          },
+          "intentId": {
+            "type": "string",
+            "x-zui": {
+              "index": 1,
+              "searchable": true
+            }
+          },
+          "phraseId": {
+            "type": "string",
+            "x-zui": {
+              "index": 2,
+              "searchable": true
+            }
+          }
+        },
+        "additionalProperties": true
+      },
+      "parentFolder": "root",
+      "selectors": []
+    },
+    "table_01K14EX3XR800Z7KMS8HG58XJV": {
+      "id": "table_01K14EX3XR800Z7KMS8HG58XJV",
+      "name": "Int_Improvement_Feedback_Table",
+      "factor": 30,
+      "frozen": true,
+      "tags": {
+        "origin": "integration",
+        "purpose": "improvement",
+        "version": "Nov-2024",
+        "integration": "Int_Improvement",
+        "x-studio-icon": "lucide://atom",
+        "x-studio-color": "green",
+        "x-studio-title": "Feedback",
+        "x-studio-readonly": "true",
+        "x-studio-description": "Table to store acquired feedback on iterations for active learning"
+      },
+      "createdAt": "2025-07-26T22:50:50.682Z",
+      "updatedAt": "2025-07-26T22:50:50.682Z",
+      "createdBy": "user:6d5df24b-85f7-495b-b720-5cdbeb5de7ab",
+      "updatedBy": null,
+      "isComputeEnabled": true,
+      "schema": {
+        "type": "object",
+        "x-zui": {},
+        "required": [
+          "uri",
+          "after",
+          "before",
+          "feedback",
+          "iterationId"
+        ],
+        "properties": {
+          "uri": {
+            "type": "string",
+            "x-zui": {
+              "index": 0,
+              "searchable": true
+            },
+            "maxLength": 250,
+            "minLength": 1
+          },
+          "after": {
+            "type": "string",
+            "x-zui": {
+              "index": 1,
+              "searchable": true
+            },
+            "minLength": 1
+          },
+          "before": {
+            "type": "string",
+            "x-zui": {
+              "index": 2,
+              "searchable": true
+            },
+            "minLength": 1
+          },
+          "feedback": {
+            "type": "string",
+            "x-zui": {
+              "index": 3,
+              "searchable": true
+            },
+            "minLength": 1
+          },
+          "learning": {
+            "type": "string",
+            "x-zui": {
+              "index": 4,
+              "computed": {
+                "model": "fast-model",
+                "action": "ai",
+                "prompt": "What would you tell your future self to improve next time?\nCode Before:\n\n```\n{{before}}\n```\n\nFeedback: \"{{feedback}}\"\n\nCode After:\n\n```\n{{after}}\n```\n\nFor the learning, it must be standalone, concise but also accurately depict the situation and feedback you were given.\n\nTry to follow one of the below structures:\n\n<example>\nIn [situation X], I learned that I should [use tool `X` rather than `Y` because ...]\n\n\\`\\`\\`\n// snippet using the right tool\n\\`\\`\\`\n</example>\n\n<example>\nWhen trying to [...], I should use [tool X, tool Y or tool Z] like this:\n\n\\`\\`\\`\n// snippet to explain a drastic code change between before and after, or a non-obvious code snippet\n\\`\\`\\`\n</example>\n\n<example>\nWhenever [Y] happens, I should avoid [...] and instead [...].\n\n\\`\\`\\`\n// snippet to implement the behavior change\n\\`\\`\\`\n</example>\n\nKeep it concise. Do not refer to \"this situation\" or to the feedback. Both have been provided by an expert reviewing the conversation, NOT the actual user. So you must embed the content from the above inside your learning so it is standalone.\nMake sure to include a code snippet that teaches the right behavior, but remaining generic enough to adapt to different conversations in the future.\n",
+                "dependencies": [
+                  "before",
+                  "feedback",
+                  "after"
+                ]
+              },
+              "searchable": true
+            },
+            "default": null,
+            "nullable": true,
+            "minLength": 1
+          },
+          "iterationId": {
+            "type": "string",
+            "x-zui": {
+              "index": 5,
+              "searchable": true
+            },
+            "maxLength": 100,
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      },
+      "parentFolder": "root",
+      "selectors": []
+    }
+  },
+  "schemas": [],
+  "versions": [
+    {
+      "name": "27 Jul 25 01:38",
+      "id": "version_01K1567YEZY3NEQQKEXR9REBM0"
+    },
+    {
+      "name": "27 Jul 25 01:34",
+      "id": "version_01K15603K9SEC2CM3JW1B9ZBTY"
+    },
+    {
+      "name": "27 Jul 25 01:25",
+      "id": "version_01K155EZA08753B5PENPWSJT5H"
+    }
+  ],
+  "revision": 270,
+  "revisionMetadata": {
+    "lastRevisionCheckAt": "2025-07-27T05:54:19.905Z",
+    "lastRevisionId": 269,
+    "multiplayerStatus": "connected",
+    "multiplayerTraces": [
+      "2025-07-27T05:54:18.659Z: Connection State: connected -> closing (Connection closing)",
+      "2025-07-27T05:54:18.660Z: Connection State: closing -> closed (Connection closed)",
+      "2025-07-27T05:54:18.660Z: Disconnecting multiplayer session...",
+      "2025-07-27T05:54:18.661Z: Multiplayer session disconnected!",
+      "2025-07-27T05:54:18.673Z: Initializing Client... - {\"initializing\":false,\"initialized\":false}",
+      "2025-07-27T05:54:18.696Z: Connection State: initialized -> connecting (ok)",
+      "2025-07-27T05:54:18.866Z (3EO3OSxllZ): Connection State: connecting -> connected (ok)",
+      "2025-07-27T05:54:18.910Z (3EO3OSxllZ): Multiplayer session initialized!",
+      "2025-07-27T05:54:18.947Z (3EO3OSxllZ): Player entered channel - {\"sessionId\":\"sess_01K15710BA8SGCBPYWMR7YNVDR\",\"connectionId\":\"3EO3OSxllZ\",\"joinedAt\":\"2025-07-27T05:54:18.914Z\",\"email\":\"federicoamarrero@gmail.com\",\"displayName\":\"Federico\",\"color\":\"var(--pink-8)\",\"workspaceUserId\":\"6d5df24b-85f7-495b-b720-5cdbeb5de7ab\",\"lastActiveAt\":\"Sun, 27 Jul 2025 05:54:18 GMT\",\"connectedAt\":\"Sun, 27 Jul 2025 05:54:18 GMT\",\"sections\":[]}",
+      "2025-07-27T05:54:18.947Z (3EO3OSxllZ): federicoamarrero@gmail.com was elected as master - \"sess_01K15710BA8SGCBPYWMR7YNVDR\""
+    ],
+    "players": [
+      "federicoamarrero@gmail.com / sess_01K15710BA8SGCBPYWMR7YNVDR / Sun, 27 Jul 2025 05:54:18 GMT /  Sun, 27 Jul 2025 05:54:18 GMT"
+    ],
+    "savedAt": "2025-07-27T05:54:19.905Z",
+    "savedBy": "federicoamarrero@gmail.com",
+    "sessionId": "sess_01K15710BA8SGCBPYWMR7YNVDR"
+  },
+  "identity": {
+    "name": "Messi Vs Ronaldo Chatbot ",
+    "manual_instructions": "",
+    "icon": {
+      "type": "emoji",
+      "emoji": "🤖 ",
+      "background_color": "var(--orange-5)"
+    },
+    "ai_summary": {
+      "value": "Chatbot named sparkling-eland provides concise information.",
+      "input_hash": "7j8s9",
+      "generated_at": "2025-02-26T18:41:46.789Z",
+      "version": "1.0.0"
+    }
+  }
+}

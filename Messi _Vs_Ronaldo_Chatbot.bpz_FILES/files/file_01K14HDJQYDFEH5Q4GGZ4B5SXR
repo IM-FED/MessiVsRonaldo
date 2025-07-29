@@ -1,0 +1,15 @@
+Welcome to my chatbot, this chatbot will give users detailed stats about Messi and/or Ronaldo.
+
+FAQ:
+
+Q: What type of stats will this chatbot give?
+A: This chatbot will provide yearly stats about Messi or Ronaldo from their start of their career till 2024.
+
+Q: Can this chatbot give out stats like penalties or freekicks made?
+A: No the only stats this chatbot will provide are appearances, goals, and assists made for that calendar year.
+
+Q: What is the purpose of this chatbot?
+A: This chatbot's purpose is to give soccer fans instant stats for Messi or Ronaldo. This first version is very limited on what stats it could get but it will be improved in the future.
+
+Q: Why can this chatbot only receive stats till 2024?
+A: The current year is 2025 which will effect the chatbot's ability to fetch the most recent stats, so it was decided to only fetch stats that are not ongoing.

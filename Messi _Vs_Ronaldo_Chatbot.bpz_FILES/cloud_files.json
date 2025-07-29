@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "file_01K156EZNX8W4SAAWE7HZZZ935",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28338,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K155FYHS7MQ1T7TB63HJPKS2",
+      "eventId": "533090bc-f30e-4ead-a63d-652802e0125c",
+      "purpose": "iteration",
+      "executionId": "llmz_01K156EXKF5MHHT4ERMKW08K23",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K156EXKF5MHHT4ERMKW08K23_1",
+      "conversationId": "conv_01K155FYZQDNPRZMQSVHBH8Z0D"
+    },
+    "key": "improvements/iterations/llmz_01K156EXKF5MHHT4ERMKW08K23_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:42:33.397Z"
+  },
+  {
+    "id": "file_01K1567G8D1T85CPVESDWJ6FCS",
+    "accessPolicies": [],
+    "contentType": "application/json",
+    "size": 224694,
+    "status": "upload_completed",
+    "tags": {
+      "dm": "studio/dialog-manager",
+      "dmHash": "b9dd4d5ba2b50bf336dbd864f3ac008fa27d5ab44d3f40fe6dc62974c3715597",
+      "system": "true",
+      "purpose": "bot-content"
+    },
+    "key": "deployments/1753594708184.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:38:28.229Z"
+  },
+  {
+    "id": "file_01K155ZJBEEDRJJH5NDAHFQ0Y9",
+    "accessPolicies": [],
+    "contentType": "application/json",
+    "size": 224523,
+    "status": "upload_completed",
+    "tags": {
+      "dm": "studio/dialog-manager",
+      "dmHash": "b9dd4d5ba2b50bf336dbd864f3ac008fa27d5ab44d3f40fe6dc62974c3715597",
+      "system": "true",
+      "purpose": "bot-content"
+    },
+    "key": "deployments/1753594448192.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:34:08.230Z"
+  },
+  {
+    "id": "file_01K155HJR9ZP671XH20XB0ZHT5",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27918,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K155FYHS7MQ1T7TB63HJPKS2",
+      "eventId": "7ebfedef-2859-4a32-b7ae-8c0e6a5e97a4",
+      "purpose": "iteration",
+      "executionId": "llmz_01K155HH8CEQ2VS8306QM7VY0J",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K155HH8CEQ2VS8306QM7VY0J_1",
+      "conversationId": "conv_01K155FYZQDNPRZMQSVHBH8Z0D"
+    },
+    "key": "improvements/iterations/llmz_01K155HH8CEQ2VS8306QM7VY0J_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:26:29.892Z"
+  },
+  {
+    "id": "file_01K155GYW5D3EHFVX82YNR7J9C",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27605,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K155FYHS7MQ1T7TB63HJPKS2",
+      "eventId": "05808c80-6fcd-4e20-919c-bbea082dc129",
+      "purpose": "iteration",
+      "executionId": "llmz_01K155GXKQBQTYVM6FH6SWMZJN",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K155GXKQBQTYVM6FH6SWMZJN_1",
+      "conversationId": "conv_01K155FYZQDNPRZMQSVHBH8Z0D"
+    },
+    "key": "improvements/iterations/llmz_01K155GXKQBQTYVM6FH6SWMZJN_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:26:09.534Z"
+  },
+  {
+    "id": "file_01K155GH6951GMAHD03APQTNVM",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27399,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K155FYHS7MQ1T7TB63HJPKS2",
+      "eventId": "8ce26e3e-ad35-481c-a46d-88a6a6076875",
+      "purpose": "iteration",
+      "executionId": "llmz_01K155GF520395GJJVJY1VWEET",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K155GF520395GJJVJY1VWEET_1",
+      "conversationId": "conv_01K155FYZQDNPRZMQSVHBH8Z0D"
+    },
+    "key": "improvements/iterations/llmz_01K155GF520395GJJVJY1VWEET_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:25:55.516Z"
+  },
+  {
+    "id": "file_01K155EHBYXBF2EVK3Z67ZSDW8",
+    "accessPolicies": [],
+    "contentType": "application/json",
+    "size": 224422,
+    "status": "upload_completed",
+    "tags": {
+      "dm": "studio/dialog-manager",
+      "dmHash": "b9dd4d5ba2b50bf336dbd864f3ac008fa27d5ab44d3f40fe6dc62974c3715597",
+      "system": "true",
+      "purpose": "bot-content"
+    },
+    "key": "deployments/1753593890081.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:24:50.166Z"
+  },
+  {
+    "id": "file_01K1553848VYP5KSJPFFVCY3KR",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 30918,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K15533RS0SZ72MXXT95Q3NWJ",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K15533RS0SZ72MXXT95Q3NWJ_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K15533RS0SZ72MXXT95Q3NWJ_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:18:40.256Z"
+  },
+  {
+    "id": "file_01K1553846E4Q6XM8E2X6XMCBM",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 38319,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K15533RS0SZ72MXXT95Q3NWJ",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K15533RS0SZ72MXXT95Q3NWJ_2",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K15533RS0SZ72MXXT95Q3NWJ_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:18:40.250Z"
+  },
+  {
+    "id": "file_01K1550NK0FFTT9R3TRKYXRZ2Y",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 30364,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1550J07SEJMFZW5CS7HTH27",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1550J07SEJMFZW5CS7HTH27_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K1550J07SEJMFZW5CS7HTH27_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:17:15.737Z"
+  },
+  {
+    "id": "file_01K1550NHK0D822HV674G03NYJ",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 37756,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1550J07SEJMFZW5CS7HTH27",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1550J07SEJMFZW5CS7HTH27_2",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K1550J07SEJMFZW5CS7HTH27_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:17:15.694Z"
+  },
+  {
+    "id": "file_01K154THP8YDBEGZYX98GY3M98",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 30381,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154TFGXFZ0WRMBABXMV9W9P",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154TFGXFZ0WRMBABXMV9W9P_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154TFGXFZ0WRMBABXMV9W9P_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:13:55.139Z"
+  },
+  {
+    "id": "file_01K154T68MAJSCM57NDQVQQ9Y2",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 29724,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154T1V0JV0TYYDZAZAJ5SG1",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154T1V0JV0TYYDZAZAJ5SG1_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154T1V0JV0TYYDZAZAJ5SG1_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:13:43.437Z"
+  },
+  {
+    "id": "file_01K154T67YARQXJA2Q3G855HFB",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 37454,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154T1V0JV0TYYDZAZAJ5SG1",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154T1V0JV0TYYDZAZAJ5SG1_2",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154T1V0JV0TYYDZAZAJ5SG1_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:13:43.417Z"
+  },
+  {
+    "id": "file_01K154SZM32T41XB57J1FB182M",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 29786,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154SX3Q06TFKEZF523J2KXT",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154SX3Q06TFKEZF523J2KXT_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154SX3Q06TFKEZF523J2KXT_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:13:36.635Z"
+  },
+  {
+    "id": "file_01K154S1V4Z68HQZ4ZMZT8DTHR",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 29579,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154RZMB190DCHXRT3Z54H1A",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154RZMB190DCHXRT3Z54H1A_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154RZMB190DCHXRT3Z54H1A_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:13:06.139Z"
+  },
+  {
+    "id": "file_01K154RXQGHYNRCGEKCG1J8108",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 29217,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154RV84MSK8X1AE9XZ20PYY",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154RV84MSK8X1AE9XZ20PYY_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154RV84MSK8X1AE9XZ20PYY_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:13:01.889Z"
+  },
+  {
+    "id": "file_01K154RFD1DF36R3NFS7HASFVS",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28918,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154RDCVD8C2WHZBVTV7HYAM",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154RDCVD8C2WHZBVTV7HYAM_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154RDCVD8C2WHZBVTV7HYAM_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:12:47.260Z"
+  },
+  {
+    "id": "file_01K154QMF0TT7EBPGC5SHK19YG",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28929,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154QJ3GMZFPQRS8HSNFRMY7",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154QJ3GMZFPQRS8HSNFRMY7_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154QJ3GMZFPQRS8HSNFRMY7_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:12:19.673Z"
+  },
+  {
+    "id": "file_01K154QB60JRFB9ZQ4PGE9C6Z9",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28503,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154Q9AM85KDQ824685GBS6M",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154Q9AM85KDQ824685GBS6M_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154Q9AM85KDQ824685GBS6M_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:12:10.168Z"
+  },
+  {
+    "id": "file_01K154N6XGSRQMFJ8Z4NVHZ6AN",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28003,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154N4YTXTG9HTW3RTZ11R90",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154N4YTXTG9HTW3RTZ11R90_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154N4YTXTG9HTW3RTZ11R90_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:11:00.260Z"
+  },
+  {
+    "id": "file_01K154EGDFF9RR7JNJ1JST0N4N",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 26631,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154ECXPYGMPJF7EHK4Z84SA",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154ECXPYGMPJF7EHK4Z84SA_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154ECXPYGMPJF7EHK4Z84SA_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:07:20.618Z"
+  },
+  {
+    "id": "file_01K154EGDF2XWCA4NTJRGH0G7K",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 34283,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154ECXPYGMPJF7EHK4Z84SA",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154ECXPYGMPJF7EHK4Z84SA_2",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154ECXPYGMPJF7EHK4Z84SA_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:07:20.616Z"
+  },
+  {
+    "id": "file_01K154DPNV7JHJWBTJ928DWM3Z",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 26654,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154DMEYG4BPSKH5VB2JA0RN",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154DMEYG4BPSKH5VB2JA0RN_1",
+      "conversationId": "convo-7"
+    },
+    "key": "improvements/iterations/llmz_01K154DMEYG4BPSKH5VB2JA0RN_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:06:54.263Z"
+  },
+  {
+    "id": "file_01K15481RS4SZ7H7JE4BB0387T",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28859,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K154800HQ0NJ6GWDTHZR3EFV",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K154800HQ0NJ6GWDTHZR3EFV_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K154800HQ0NJ6GWDTHZR3EFV_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:03:49.010Z"
+  },
+  {
+    "id": "file_01K1547FZH0PHSF75WWRF6CMCG",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 36035,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1547BHMVR4DXQWRY853QBZQ",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1547BHMVR4DXQWRY853QBZQ_2",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K1547BHMVR4DXQWRY853QBZQ_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:03:30.789Z"
+  },
+  {
+    "id": "file_01K1547FYNYE93GMV82YC6JNZQ",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28370,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1547BHMVR4DXQWRY853QBZQ",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1547BHMVR4DXQWRY853QBZQ_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K1547BHMVR4DXQWRY853QBZQ_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:03:30.764Z"
+  },
+  {
+    "id": "file_01K1546N34669EZZJV9GHF1J9H",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 28074,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1546GAYNTQDD0ANHMKGD81W",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1546GAYNTQDD0ANHMKGD81W_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K1546GAYNTQDD0ANHMKGD81W_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:03:03.264Z"
+  },
+  {
+    "id": "file_01K1545YWCRP6KKM3SY5WMA78C",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27716,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1545V1F1PNV40EVH7A12AZF",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1545V1F1PNV40EVH7A12AZF_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K1545V1F1PNV40EVH7A12AZF_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:02:40.516Z"
+  },
+  {
+    "id": "file_01K1545YVQ2QB9EQVHHAXJHSJG",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 35246,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1545V1F1PNV40EVH7A12AZF",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1545V1F1PNV40EVH7A12AZF_2",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K1545V1F1PNV40EVH7A12AZF_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:02:40.499Z"
+  },
+  {
+    "id": "file_01K1545E5CATKFKEBBZWYWC91T",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27863,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1545C1VMXX56RXE3BSSS7V3",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1545C1VMXX56RXE3BSSS7V3_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K1545C1VMXX56RXE3BSSS7V3_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:02:23.395Z"
+  },
+  {
+    "id": "file_01K1543D2DT404AJ6W6C39R9QD",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 26679,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K15438SZXDP6W014KPC7838A",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K15438SZXDP6W014KPC7838A_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K15438SZXDP6W014KPC7838A_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:01:16.741Z"
+  },
+  {
+    "id": "file_01K1543D29Q8D0KEHXZBQ2SH5C",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 34209,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K15438SZXDP6W014KPC7838A",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K15438SZXDP6W014KPC7838A_2",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K15438SZXDP6W014KPC7838A_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:01:16.738Z"
+  },
+  {
+    "id": "file_01K153YYEF7FT7DFYFA9R3RJ49",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25642,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153YTET8RENVW6FX53DRQV4",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153YTET8RENVW6FX53DRQV4_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K153YTET8RENVW6FX53DRQV4_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:58:50.694Z"
+  },
+  {
+    "id": "file_01K153YYE8EXN68HMYC075VP8C",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 33130,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153YTET8RENVW6FX53DRQV4",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153YTET8RENVW6FX53DRQV4_2",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K153YTET8RENVW6FX53DRQV4_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:58:50.691Z"
+  },
+  {
+    "id": "file_01K153YCGE6GAKKA1JSF3DVXF5",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25464,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153YB30Q7939NFAJTM8B9DP",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153YB30Q7939NFAJTM8B9DP_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K153YB30Q7939NFAJTM8B9DP_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:58:32.329Z"
+  },
+  {
+    "id": "file_01K153XVCK4B1H50D6T20KYTG5",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25431,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153XS1V0BP3RKVTCM87KCX6",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153XS1V0BP3RKVTCM87KCX6_1",
+      "conversationId": "convo-6"
+    },
+    "key": "improvements/iterations/llmz_01K153XS1V0BP3RKVTCM87KCX6_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:58:14.794Z"
+  },
+  {
+    "id": "file_01K153WGYRS409SG5EYSJZACK0",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 24917,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153WFAED3WTRZH7PM9538H5",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153WFAED3WTRZH7PM9538H5_1",
+      "conversationId": "convo-5"
+    },
+    "key": "improvements/iterations/llmz_01K153WFAED3WTRZH7PM9538H5_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:57:31.347Z"
+  },
+  {
+    "id": "file_01K153PG1RSVGWBAFEK7NGPTYT",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25703,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153PEAAJSJJ102136NHXP5R",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153PEAAJSJJ102136NHXP5R_1",
+      "conversationId": "convo-4"
+    },
+    "key": "improvements/iterations/llmz_01K153PEAAJSJJ102136NHXP5R_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:54:13.812Z"
+  },
+  {
+    "id": "file_01K153NY4D6F663P066YEF7MES",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25355,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153NWEE6QZ5ERPB15PMMRVC",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153NWEE6QZ5ERPB15PMMRVC_1",
+      "conversationId": "convo-4"
+    },
+    "key": "improvements/iterations/llmz_01K153NWEE6QZ5ERPB15PMMRVC_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:53:55.465Z"
+  },
+  {
+    "id": "file_01K153KHM2F5WNKNB6MZ5SSQG9",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25363,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153KFC9WR44DMRB253ESBVM",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153KFC9WR44DMRB253ESBVM_1",
+      "conversationId": "convo-4"
+    },
+    "key": "improvements/iterations/llmz_01K153KFC9WR44DMRB253ESBVM_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:52:37.118Z"
+  },
+  {
+    "id": "file_01K153HQDTPKTQAKV57VFXS75Z",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25406,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153HP16AXYZZPXM3NSC1F2G",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153HP16AXYZZPXM3NSC1F2G_1",
+      "conversationId": "convo-3"
+    },
+    "key": "improvements/iterations/llmz_01K153HP16AXYZZPXM3NSC1F2G_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:51:37.524Z"
+  },
+  {
+    "id": "file_01K153H7QXJ831Z97RVA2N0ZT9",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25378,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K153H5GYT67GT5B5CZCTHWB4",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K153H5GYT67GT5B5CZCTHWB4_1",
+      "conversationId": "convo-3"
+    },
+    "key": "improvements/iterations/llmz_01K153H5GYT67GT5B5CZCTHWB4_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:51:21.463Z"
+  },
+  {
+    "id": "file_01K152FBNQED7Y03G3E4H2WZ1V",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27320,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K152F9A1SNAGD3CQW1NZGTRD",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K152F9A1SNAGD3CQW1NZGTRD_1",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K152F9A1SNAGD3CQW1NZGTRD_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:32:51.376Z"
+  },
+  {
+    "id": "file_01K1529ZM6P8DX4HGQCEVGV7EK",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27413,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1529X0NZDBAJW3W6NPFGKMR",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1529X0NZDBAJW3W6NPFGKMR_1",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K1529X0NZDBAJW3W6NPFGKMR_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:29:55.200Z"
+  },
+  {
+    "id": "file_01K1529EG8HAYF8A5Q75Q34GWW",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 26897,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1529B6HK1B6606KF3APKXDK",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1529B6HK1B6606KF3APKXDK_1",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K1529B6HK1B6606KF3APKXDK_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:29:37.664Z"
+  },
+  {
+    "id": "file_01K1528RTRFMHFY25TQQ9F70N9",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 33544,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1528MCZ7ES49FWRWYQG13J7",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1528MCZ7ES49FWRWYQG13J7_2",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K1528MCZ7ES49FWRWYQG13J7_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:29:15.471Z"
+  },
+  {
+    "id": "file_01K1528RTJTWDXKTQ83ZGND7JA",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25819,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1528MCZ7ES49FWRWYQG13J7",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1528MCZ7ES49FWRWYQG13J7_1",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K1528MCZ7ES49FWRWYQG13J7_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:29:15.470Z"
+  },
+  {
+    "id": "file_01K1526VT0M51HNEYP3PR9G5BM",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 34834,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1526MT6WW9WHVZ4NPPMEEJ7",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1526MT6WW9WHVZ4NPPMEEJ7_2",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K1526MT6WW9WHVZ4NPPMEEJ7_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:28:12.984Z"
+  },
+  {
+    "id": "file_01K1526VSM0QR6TA3MVNYBF4Y7",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25266,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1526MT6WW9WHVZ4NPPMEEJ7",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1526MT6WW9WHVZ4NPPMEEJ7_1",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K1526MT6WW9WHVZ4NPPMEEJ7_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:28:12.975Z"
+  },
+  {
+    "id": "file_01K15262BZGZRCQ80NCNTHDGKC",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25302,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01K1525ZGGYDYEWW77TBTQHP73",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K1525ZGGYDYEWW77TBTQHP73_1",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01K1525ZGGYDYEWW77TBTQHP73_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:27:46.939Z"
+  },
+  {
+    "id": "file_01K15134PCJEHE319TBYC8KMV1",
+    "accessPolicies": [],
+    "contentType": "application/json",
+    "size": 224384,
+    "status": "upload_completed",
+    "tags": {
+      "dm": "studio/dialog-manager",
+      "dmHash": "b9dd4d5ba2b50bf336dbd864f3ac008fa27d5ab44d3f40fe6dc62974c3715597",
+      "system": "true",
+      "purpose": "bot-content"
+    },
+    "key": "deployments/1753589322389.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:08:42.436Z"
+  },
+  {
+    "id": "file_01K150YKVVGCJMNS3VQP52AQMH",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 34887,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "d69eb524-11c4-4d17-a2ff-c5e894d7c24b",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150YG1V39ACJ1D4DNY18ECX",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150YG1V39ACJ1D4DNY18ECX_2",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150YG1V39ACJ1D4DNY18ECX_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:06:14.133Z"
+  },
+  {
+    "id": "file_01K150YKVP469CCXZ1RGDK7ASK",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 27277,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "d69eb524-11c4-4d17-a2ff-c5e894d7c24b",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150YG1V39ACJ1D4DNY18ECX",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150YG1V39ACJ1D4DNY18ECX_1",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150YG1V39ACJ1D4DNY18ECX_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:06:14.129Z"
+  },
+  {
+    "id": "file_01K150Y8KFVDZG6R9CGD1M4D71",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 26718,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "bac939ea-fd0c-449b-9375-ea2ab8d15ce1",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150Y3NY2P6Y4JRWTGSM8J9K",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150Y3NY2P6Y4JRWTGSM8J9K_1",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150Y3NY2P6Y4JRWTGSM8J9K_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:06:02.574Z"
+  },
+  {
+    "id": "file_01K150Y8DVJ0S43AMJE0RCNNH7",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 34958,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "bac939ea-fd0c-449b-9375-ea2ab8d15ce1",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150Y3NY2P6Y4JRWTGSM8J9K",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150Y3NY2P6Y4JRWTGSM8J9K_2",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150Y3NY2P6Y4JRWTGSM8J9K_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:06:02.422Z"
+  },
+  {
+    "id": "file_01K150XPKQSH4PESDQS3CWMGM9",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 26806,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "8a604133-61fa-4df7-ae6e-5848a2ded6c6",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150XMEV9MFG2R728T131DJJ",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150XMEV9MFG2R728T131DJJ_1",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150XMEV9MFG2R728T131DJJ_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:05:44.178Z"
+  },
+  {
+    "id": "file_01K150X3H15K7JQD8KPQYADPAS",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 33581,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "a5e88e92-1a21-4886-afa3-948d2d465f21",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150WZKEMT94MGQ3G6KSZ8BF",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150WZKEMT94MGQ3G6KSZ8BF_2",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150WZKEMT94MGQ3G6KSZ8BF_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:05:24.637Z"
+  },
+  {
+    "id": "file_01K150X3H15K7JQD8KPQYADPAR",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25775,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "a5e88e92-1a21-4886-afa3-948d2d465f21",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150WZKEMT94MGQ3G6KSZ8BF",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150WZKEMT94MGQ3G6KSZ8BF_1",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150WZKEMT94MGQ3G6KSZ8BF_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:05:24.636Z"
+  },
+  {
+    "id": "file_01K150WQVAED1WS53N7SH52ND2",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25358,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "7728af09-0f39-48ec-8ba2-c6c3f0de1ea9",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150WJDGA299CD9YBQEQDHZJ",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150WJDGA299CD9YBQEQDHZJ_1",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150WJDGA299CD9YBQEQDHZJ_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:05:12.675Z"
+  },
+  {
+    "id": "file_01K150WQTS0XVH9VH8S6XJ7ANQ",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 32967,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "7728af09-0f39-48ec-8ba2-c6c3f0de1ea9",
+      "purpose": "iteration",
+      "executionId": "llmz_01K150WJDGA299CD9YBQEQDHZJ",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K150WJDGA299CD9YBQEQDHZJ_2",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K150WJDGA299CD9YBQEQDHZJ_2.json",
+    "index": false,
+    "updatedAt": "2025-07-27T04:05:12.660Z"
+  },
+  {
+    "id": "file_01K14T56Z49VC5TVEN7EEWJRVS",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 25355,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user_01K14T4X6Q1GHXWXQY0Z9BHTXN",
+      "eventId": "68653979-68ff-4292-8e3b-c9ba77d82c87",
+      "purpose": "iteration",
+      "executionId": "llmz_01K14T53DQDP4CHS3V2MEF5HWS",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01K14T53DQDP4CHS3V2MEF5HWS_1",
+      "conversationId": "conv_01K14T4XFAQTVCV5P918JE2A2A"
+    },
+    "key": "improvements/iterations/llmz_01K14T53DQDP4CHS3V2MEF5HWS_1.json",
+    "index": false,
+    "updatedAt": "2025-07-27T02:07:30.272Z"
+  },
+  {
+    "id": "file_01K14T4DYHEA396GKX0TAC47PP",
+    "accessPolicies": [],
+    "contentType": "application/json",
+    "size": 224031,
+    "status": "upload_completed",
+    "tags": {
+      "dm": "studio/dialog-manager",
+      "dmHash": "b9dd4d5ba2b50bf336dbd864f3ac008fa27d5ab44d3f40fe6dc62974c3715597",
+      "system": "true",
+      "purpose": "bot-content"
+    },
+    "key": "deployments/1753582024616.json",
+    "index": false,
+    "updatedAt": "2025-07-27T02:07:04.652Z"
+  },
+  {
+    "id": "file_01K14T3FMW8XCQSR4PNWXXMTSS",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 4859,
+    "status": "upload_completed",
+    "tags": {
+      "system": "true",
+      "purpose": "config"
+    },
+    "key": "bot->0a1f9619-6ccd-4d2d-ac55-80538a002657->models.config.json",
+    "index": false,
+    "updatedAt": "2025-07-27T02:06:33.723Z"
+  },
+  {
+    "id": "file_01K14T315B5AETZ0KV43AS00Q0",
+    "accessPolicies": [],
+    "contentType": "application/json",
+    "size": 216861,
+    "status": "upload_completed",
+    "tags": {
+      "dm": "studio/dialog-manager",
+      "dmHash": "b9dd4d5ba2b50bf336dbd864f3ac008fa27d5ab44d3f40fe6dc62974c3715597",
+      "system": "true",
+      "purpose": "bot-content"
+    },
+    "key": "deployments/1753581978741.json",
+    "index": false,
+    "updatedAt": "2025-07-27T02:06:18.788Z"
+  },
+  {
+    "id": "file_01K14T2JJ7X57HTK3FDDRRKY84",
+    "accessPolicies": [],
+    "contentType": "text/plain",
+    "size": 1428,
+    "status": "indexing_completed",
+    "tags": {
+      "kbId": "kb-default",
+      "title": "Ronaldo.txt",
+      "source": "knowledge-base",
+      "initialBotFile": "true"
+    },
+    "key": "kb-default/Ronaldo.txt",
+    "index": true,
+    "updatedAt": "2025-07-27T02:06:03.842Z"
+  },
+  {
+    "id": "file_01K14T2EH9SXPZD5Y1SKM629X8",
+    "accessPolicies": [],
+    "contentType": "text/plain",
+    "size": 1332,
+    "status": "indexing_completed",
+    "tags": {
+      "kbId": "kb-default",
+      "title": "Messi.txt",
+      "source": "knowledge-base",
+      "initialBotFile": "true"
+    },
+    "key": "kb-default/Messi.txt",
+    "index": true,
+    "updatedAt": "2025-07-27T02:05:59.716Z"
+  },
+  {
+    "id": "file_01K14HDJQYDFEH5Q4GGZ4B5SXR",
+    "accessPolicies": [],
+    "contentType": "text/plain",
+    "size": 881,
+    "status": "indexing_completed",
+    "tags": {
+      "kbId": "kb-default",
+      "title": "Messi_Vs_Ronaldo.txt",
+      "source": "knowledge-base",
+      "initialBotFile": "true"
+    },
+    "key": "kb-default/Messi_Vs_Ronaldo.txt",
+    "index": true,
+    "updatedAt": "2025-07-26T23:34:47.286Z"
+  },
+  {
+    "id": "file_01K14FVRB9HYK1P57S16BGF6QZ",
+    "accessPolicies": [],
+    "contentType": "text/html",
+    "size": 1,
+    "status": "upload_completed",
+    "tags": {
+      "dsId": "ds-default-rich-text",
+      "kbId": "kb-default",
+      "type": "knowledge-base",
+      "title": "Rich Text Source",
+      "system": "true",
+      "initialBotFile": "true"
+    },
+    "key": "rich-text-source-0a1f9619-6ccd-4d2d-ac55-80538a002657",
+    "index": false,
+    "updatedAt": "2025-07-26T23:07:34.615Z"
+  },
+  {
+    "id": "file_01K14EX5BS04MBCZSQY5W4EPV0",
+    "accessPolicies": [
+      "public_content"
+    ],
+    "contentType": "application/json",
+    "size": 767,
+    "status": "upload_completed",
+    "tags": {
+      "source": "integration",
+      "system": "true",
+      "integrationName": "webchat",
+      "webchatConfigVersion": "1"
+    },
+    "key": "webchatConfig.json",
+    "index": false,
+    "updatedAt": "2025-07-27T05:38:41.539Z"
+  },
+  {
+    "id": "file_01K14EX589SFE8VJSK0N0G8NQ0",
+    "accessPolicies": [
+      "public_content"
+    ],
+    "contentType": "application/javascript",
+    "size": 790,
+    "status": "upload_completed",
+    "tags": {
+      "source": "integration",
+      "system": "true",
+      "integrationName": "webchat",
+      "webchatInjectConfigVersion": "1"
+    },
+    "key": "webchatConfigInject.js",
+    "index": false,
+    "updatedAt": "2025-07-27T05:38:41.357Z"
+  },
+  {
+    "id": "file_01K14EX3QWAN1H6JMDH1W5TAK5",
+    "accessPolicies": [],
+    "contentType": "application/json",
+    "size": 338587,
+    "status": "upload_completed",
+    "tags": {
+      "dm": "studio/dialog-manager",
+      "dmHash": "5b31b8aa13ba23651c2e988f232c0e017e94149077dbb91c1deddd7d88d83462",
+      "system": "true",
+      "purpose": "bot-content"
+    },
+    "key": "deployments/1750885169016.json",
+    "index": false,
+    "updatedAt": "2025-07-26T22:50:50.487Z"
+  },
+  {
+    "id": "file_01K14EX3FZMMEZRRABN2183951",
+    "accessPolicies": [
+      "public_content"
+    ],
+    "contentType": "application/javascript",
+    "size": 529,
+    "status": "upload_completed",
+    "tags": {
+      "source": "integration",
+      "system": "true",
+      "integrationName": "webchat",
+      "webchatInjectConfigVersion": "1"
+    },
+    "key": "webchatConfigInject.js",
+    "index": false,
+    "updatedAt": "2025-07-26T22:50:50.232Z"
+  },
+  {
+    "id": "file_01K14EX36QZQ6FFRYPEMYQERBC",
+    "accessPolicies": [],
+    "contentType": "application/json; charset=utf-8",
+    "size": 19275,
+    "status": "upload_completed",
+    "tags": {
+      "uri": "workflow://wf-main/nd-54aa0c19de",
+      "origin": "integration",
+      "userId": "user-2",
+      "eventId": "none",
+      "purpose": "iteration",
+      "executionId": "llmz_01JYMEADCSA8VBMS18BDVP20V1",
+      "integration": "Int_Improvement",
+      "iterationId": "llmz_01JYMEADCSA8VBMS18BDVP20V1_1",
+      "conversationId": "convo-1"
+    },
+    "key": "improvements/iterations/llmz_01JYMEADCSA8VBMS18BDVP20V1_1.json",
+    "index": false,
+    "updatedAt": "2025-07-26T22:50:49.938Z"
+  }
+]

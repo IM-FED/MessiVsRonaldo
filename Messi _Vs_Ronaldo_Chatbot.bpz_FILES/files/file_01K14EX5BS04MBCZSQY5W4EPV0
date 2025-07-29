@@ -1,0 +1,22 @@
+{
+  "botId": "0a1f9619-6ccd-4d2d-ac55-80538a002657",
+  "configuration": {
+    "version": "v1",
+    "botName": "Messi vs Ronaldo Stats Bot",
+    "botDescription": "I provide instant yearly stats—appearances, goals, and assists—for Messi and Ronaldo from the start of their careers through 2024. Ask for quick, reliable comparisons or single-player stats.",
+    "website": {},
+    "email": {},
+    "phone": {},
+    "termsOfService": {},
+    "privacyPolicy": {},
+    "color": "#e54d2e",
+    "variant": "soft",
+    "headerVariant": "glass",
+    "themeMode": "light",
+    "fontFamily": "ibm",
+    "radius": 4,
+    "feedbackEnabled": true,
+    "footer": "[⚡ by Botpress](https://botpress.com/?from=webchat)"
+  },
+  "clientId": "b7194af2-5f97-4167-bd79-e81141512321"
+}
