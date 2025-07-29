@@ -2,10 +2,6 @@
 
 https://github.com/user-attachments/assets/9a629882-6d46-4389-961e-b0d12a6ebaba
 
-
-
-https://github.com/user-attachments/assets/1eaa3d04-2247-4f5f-9ca6-7fea6abbf7a4
-
 # MessiVsRonaldo
 Chatbot that lets users view desired statistics for Lionel Messi and/or Cristiano Ronaldo.
 
